@@ -1,0 +1,84 @@
+.overlay-img {
+    background-image: url(images/Rectangle5.png);
+}
+
+.footer-info {
+    font-size: 75%;
+}
+
+/* On screens that are 768px or less */
+
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 60% !important;
+    }
+
+    .banner h1 {
+        font-size: xx-large;
+    }
+
+    .banner form {
+        margin-top: 15px;
+    }
+
+    .banner p {
+        display: none;
+    }
+
+    .reviews-0f-user h1 {
+        font-size: 75%;
+    }
+
+    .reviews-0f-user h6 {
+        font-size: 75%;
+    }
+
+    .reviews-0f-user p {
+        font-size: 75%;
+        margin-top: 1.5rem !important;
+    }
+}
+
+/* On screens that are 576px or less */
+@media screen and (max-width: 576px) {
+
+    .banner {
+        width: 70% !important;
+    }
+
+    .banner h1 {
+        font-size: large;
+    }
+
+    .banner p {
+        display: none;
+    }
+
+    .banner form {
+        height: 50% !important;
+        padding: 0;
+        border: none;
+    }
+
+    .reviews-0f-user img {
+        width: 10%;
+        margin-top: 0.25rem !important;
+        margin-bottom: 0.25rem !important;
+    }
+
+    .reviews-0f-user h1 {
+        font-size: 50%;
+        margin-bottom: 0;
+    }
+
+    .reviews-0f-user h6 {
+        font-size: 50%;
+        margin-top: 3px;
+    }
+
+    .reviews-0f-user p {
+        font-size: 50%;
+        margin-top: 0.25rem !important;
+        margin-bottom: 0.25rem !important;
+    }
+}
